@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <TextView
+            android:text="@string/player_4_has_20_life"
+            android:textSize="8sp"
+            android:layout_width="385dp"
+            android:id="@+id/p4Text"
+            android:layout_height="10dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p3minus1" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="-1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3minus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p3Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p3minus5"
+            app:layout_constraintEnd_toStartOf="@+id/p3plus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="+1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3plus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p3Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p3minus1"
+            app:layout_constraintEnd_toStartOf="@+id/p3plus5" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="+5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3plus5"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/p3Text"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/p3plus1" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="-5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4minus5" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/p4Text" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/p4minus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+    />
+    <Button
+            android:text="-1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4minus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p4Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p4minus5"
+            app:layout_constraintEnd_toStartOf="@+id/p4plus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+    />
+    <Button
+            android:text="+1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4plus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p4Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p4minus1"
+            app:layout_constraintEnd_toStartOf="@+id/p4plus5" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+    />
+    <Button
+            android:text="-5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3minus5" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p3Text" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/p3minus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="-1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2minus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p2Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p2minus5"
+            app:layout_constraintEnd_toStartOf="@+id/p2plus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="-5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2minus5" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p2Text" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/p2minus1" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="+1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2plus1" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p2Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p2minus1"
+            app:layout_constraintEnd_toStartOf="@+id/p2plus5" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="+5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2plus5" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p2Text" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/p2plus1"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="@string/_5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1minus5" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/p1minus1"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/p1Text"/>
+    <Button
+            android:text="@string/_1"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1minus1" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/p1minus5" app:layout_constraintEnd_toStartOf="@+id/p1plus1"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/p1Text"/>
+    <Button
+            android:text="@string/_12"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1plus1" app:layout_constraintEnd_toStartOf="@+id/p1plus5"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toEndOf="@+id/p1minus1"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p1Text"/>
+    <Button
+            android:text="@string/_52"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1plus5" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toEndOf="@+id/p1plus1"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p1Text"/>
+    <TextView
+            android:text="@string/player_1_has_20_life"
+            android:textSize="8sp"
+            android:layout_width="385dp"
+            android:layout_height="10dp"
+            android:id="@+id/p1Text" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/p1minus5"/>
+    <TextView
+            android:text="@string/player_2_has_20_life"
+            android:textSize="8sp"
+            android:layout_width="385dp"
+            android:layout_height="10dp"
+            android:id="@+id/p2Text" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p1minus5" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/p2minus1"
+            app:layout_constraintVertical_chainStyle="spread_inside"/>
+    <Button
+            android:text="+5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4plus5" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/p4Text" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/p4plus1" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+    />
+    <TextView
+            android:text="@string/player_3_has_20_life"
+            android:textSize="8sp"
+            android:layout_width="385dp"
+            android:layout_height="10dp"
+            android:id="@+id/p3Text"
+            app:layout_constraintTop_toBottomOf="@+id/p2minus5" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/p3minus1" android:layout_marginTop="8dp"
+            app:layout_constraintVertical_chainStyle="spread_inside"/>
+    <TextView
+            android:layout_width="398dp"
+            android:textSize="8sp"
+            android:layout_height="0dp"
+            android:id="@+id/resultText"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.52" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/p4minus1"/>
+</android.support.constraint.ConstraintLayout>

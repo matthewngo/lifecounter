@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Life Counter</string>
+    <string name="textview">TextView</string>
+    <string name="_5">-5</string>
+    <string name="_1">-1</string>
+    <string name="_52">+5</string>
+    <string name="_12">+1</string>
+    <string name="player_3_has_20_life">20</string>
+    <string name="player_4_has_20_life">20</string>
+    <string name="player_1_has_20_life">20</string>
+    <string name="player_2_has_20_life">20</string>
+</resources>
